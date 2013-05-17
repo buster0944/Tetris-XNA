@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Bucket.bmp</Source>
+      <Name>Bucket</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713\bin\x86\Debug\Content\Bucket.xnb</Output>
+      <Time>2013-05-17T16:49:58.1517521-05:00</Time>
+    </Item>
+    <Item>
+      <Source>next.bmp</Source>
+      <Name>next</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713\bin\x86\Debug\Content\next.xnb</Output>
+      <Time>2013-05-17T16:50:02.4529981-05:00</Time>
+    </Item>
+    <Item>
+      <Source>10522-white-wolf.jpg</Source>
+      <Name>10522-white-wolf</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713\bin\x86\Debug\Content\10522-white-wolf.xnb</Output>
+      <Time>2013-05-17T16:50:11.2114991-05:00</Time>
+    </Item>
+    <Item>
+      <Source>testsprite.bmp</Source>
+      <Name>testsprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713\bin\x86\Debug\Content\testsprite.xnb</Output>
+      <Time>2013-05-17T16:50:14.8307061-05:00</Time>
+    </Item>
+    <Item>
+      <Source>scores.bmp</Source>
+      <Name>scores</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713\bin\x86\Debug\Content\scores.xnb</Output>
+      <Time>2013-05-17T16:50:17.7268718-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Score.spritefont</Source>
+      <Name>Score</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713\bin\x86\Debug\Content\Score.xnb</Output>
+      <Time>2013-05-17T16:50:07.2282713-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{B6541171-0DAB-4DBF-A9B8-A47B5698B873}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-02-01T15:42:03.3734099-06:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

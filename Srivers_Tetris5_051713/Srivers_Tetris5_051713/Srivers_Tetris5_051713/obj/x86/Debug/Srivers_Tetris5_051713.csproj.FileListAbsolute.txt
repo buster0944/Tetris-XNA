@@ -1,0 +1,12 @@
+C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713\bin\x86\Debug\Content\Bucket.xnb
+C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713\bin\x86\Debug\Content\next.xnb
+C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713\bin\x86\Debug\Content\10522-white-wolf.xnb
+C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713\bin\x86\Debug\Content\testsprite.xnb
+C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713\bin\x86\Debug\Content\scores.xnb
+C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713\bin\x86\Debug\Content\Score.xnb
+C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713\bin\x86\Debug\Srivers_Tetris5_051713.exe
+C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713\bin\x86\Debug\Srivers_Tetris5_051713.pdb
+C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713\obj\x86\Debug\Srivers_Tetris5_051713.exe
+C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713\obj\x86\Debug\Srivers_Tetris5_051713.pdb

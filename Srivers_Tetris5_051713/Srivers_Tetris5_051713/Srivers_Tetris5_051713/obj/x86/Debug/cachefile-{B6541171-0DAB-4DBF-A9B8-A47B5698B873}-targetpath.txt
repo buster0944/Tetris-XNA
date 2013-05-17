@@ -1,0 +1,6 @@
+Content\Bucket.xnb
+Content\next.xnb
+Content\10522-white-wolf.xnb
+Content\testsprite.xnb
+Content\scores.xnb
+Content\Score.xnb
