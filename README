@@ -1,0 +1,17 @@
+Tetris project via XNA using C# from Visual Studios 2010 Ultimate
+
+So far I have a set background and bucket along with a score and preview field.
+
+The Scoring system seems to work fine. Figured out how to clear rows and drop them down correctly.
+
+The level system should change when players reach a certain score (haven't tested it yet)
+
+The blocks are white with black outline so the color per shape can take over the white area and show the user an area that has the lines per block to try to have better aim when placing blocks.
+
+
+
+
+The rotation function seems a little awkward and seems to push the block when it rotates instead of just rotating.
+
+
+The preview field does not currently show the next random block.
