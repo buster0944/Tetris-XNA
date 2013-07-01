@@ -1,0 +1,11 @@
+Content\Bucket.xnb
+Content\next.xnb
+Content\10522-white-wolf.xnb
+Content\testsprite.xnb
+Content\scores.xnb
+Content\background1.xnb
+Content\background2.xnb
+Content\Score.xnb
+Content\BGM2.xnb
+Content\BGM2.wma
+Content\SoundEffect.xnb

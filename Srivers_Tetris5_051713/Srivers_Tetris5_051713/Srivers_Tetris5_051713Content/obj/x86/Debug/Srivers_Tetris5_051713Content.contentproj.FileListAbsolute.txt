@@ -1,0 +1,2 @@
+C:\Users\Lyco\Desktop\Steven Rivers classes\Spring 2013\N266 Console Development\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Lyco\Tetris-XNA\Srivers_Tetris5_051713\Srivers_Tetris5_051713\Srivers_Tetris5_051713Content\obj\x86\Debug\ResolveAssemblyReference.cache
