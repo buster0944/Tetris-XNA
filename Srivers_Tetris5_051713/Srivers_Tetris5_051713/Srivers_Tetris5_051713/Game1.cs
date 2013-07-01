@@ -371,25 +371,7 @@ namespace Srivers_Tetris5_051713
                 fallSpeedState--;
             }
 
-            if (score >= 1000 && score < 2000)
-            {
-                level = 2;
-            }
-            if (score >= 2000)
-            {
-                level = 3;
-            }
-
-            if (level == 2)
-            {
-                fallSpeedRegular = 20;
-
-            }
-            if (level == 3)
-            {
-                fallSpeedRegular = 10;
-
-            }
+           
             keyboardState = keyboardCurrent;
             base.Update(gameTime);
         }
@@ -439,28 +421,19 @@ namespace Srivers_Tetris5_051713
             spriteBatch.Begin();
             if (score < 100)
             {
-                level = 1;
+                spriteBatch.Draw(background, new Rectangle(0, 0, 760, 650), Color.White);
             }
             if (score >= 100 && score < 200)
             {
-                level = 2;
+                spriteBatch.Draw(background1, new Rectangle(0, 0, 900, 650), Color.White);
+                fallSpeedRegular = 20;
             }
             if (score >= 200)
             {
-                level = 3;
+                 spriteBatch.Draw(background2, new Rectangle(0, 0, 900, 650), Color.White);
+                fallSpeedRegular = 10;
             }
-            if (level == 1)
-            {
-                spriteBatch.Draw(background, new Rectangle(0, 0, 760, 650), Color.White);
-            }
-            if (level == 2)
-            {
-                spriteBatch.Draw(background1, new Rectangle(0, 0, 900, 650), Color.White);
-            }
-            if (level == 3)
-            {
-                spriteBatch.Draw(background2, new Rectangle(0, 0, 900, 650), Color.White);
-            }
+           
             spriteBatch.Draw(bucket, new Rectangle(27, 0, 325, 650), Color.White);
             spriteBatch.Draw(scoreBoard, new Rectangle(400, 0, 200, 50), Color.White);
             spriteBatch.Draw(next, new Rectangle(400, 100, 100, 100), Color.White);
