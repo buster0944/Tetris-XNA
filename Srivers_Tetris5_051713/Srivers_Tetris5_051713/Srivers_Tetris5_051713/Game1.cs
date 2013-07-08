@@ -27,7 +27,9 @@ namespace Srivers_Tetris5_051713
         public Texture2D tetrisBlock;
         Color[] colors;
         List<Vector2> fallingBlocks;
+        List<Vector2> nextBlocks;
         int shapeColor;
+        int nextShapeColor;
         int fallSpeedFast = 10;
         int fallSpeedRegular = 30;
         int fallSpeedState = 30;
@@ -84,6 +86,14 @@ namespace Srivers_Tetris5_051713
             //sets beginning score/level
             score = 0;
             level = 1;
+
+            nextBlocks = new List<Vector2>();
+            // square
+            nextBlocks.Add(new Vector2(4, 0));
+            nextBlocks.Add(new Vector2(5, 0));
+            nextBlocks.Add(new Vector2(4, 1));
+            nextBlocks.Add(new Vector2(5, 1));
+
             ResetFalling();
             ClearRows();
             Rotate();
@@ -93,65 +103,68 @@ namespace Srivers_Tetris5_051713
         void ResetFalling()
         {
             //chooses a random color and based on that color it chooses the shape assigned to it
-            shapeColor = random.Next(0, 7);
-            fallingBlocks = new List<Vector2>();
+            shapeColor = nextShapeColor;
+            nextShapeColor = random.Next(0, 7);
+            fallingBlocks = nextBlocks;
+            nextBlocks = new List<Vector2>();
 
             if (shapeColor == 0)
             {
                 // square
-                fallingBlocks.Add(new Vector2(4, 0));
-                fallingBlocks.Add(new Vector2(5, 0));
-                fallingBlocks.Add(new Vector2(4, 1));
-                fallingBlocks.Add(new Vector2(5, 1));
+                nextBlocks.Add(new Vector2(4, 0));
+                nextBlocks.Add(new Vector2(5, 0));
+                nextBlocks.Add(new Vector2(4, 1));
+                nextBlocks.Add(new Vector2(5, 1));
             }
             else if (shapeColor == 1)
             {
                 // I
-                fallingBlocks.Add(new Vector2(5, 0));
-                fallingBlocks.Add(new Vector2(4, 0));
-                fallingBlocks.Add(new Vector2(6, 0));
-                fallingBlocks.Add(new Vector2(7, 0));
+                nextBlocks.Add(new Vector2(5, 0));
+                nextBlocks.Add(new Vector2(4, 0));
+                nextBlocks.Add(new Vector2(6, 0));
+                nextBlocks.Add(new Vector2(7, 0));
             }
             else if (shapeColor == 2)
             {
                 // L
-                fallingBlocks.Add(new Vector2(5, 1));
-                fallingBlocks.Add(new Vector2(4, 0));
-                fallingBlocks.Add(new Vector2(5, 0));
-                fallingBlocks.Add(new Vector2(5, 2));
+                nextBlocks.Add(new Vector2(5, 1));
+                nextBlocks.Add(new Vector2(4, 0));
+                nextBlocks.Add(new Vector2(5, 0));
+                nextBlocks.Add(new Vector2(5, 2));
             }
             else if (shapeColor == 3)
             {
                 // Z
-                fallingBlocks.Add(new Vector2(5, 0));
-                fallingBlocks.Add(new Vector2(4, 0));
-                fallingBlocks.Add(new Vector2(5, 1));
-                fallingBlocks.Add(new Vector2(6, 1));
+                nextBlocks.Add(new Vector2(5, 0));
+                nextBlocks.Add(new Vector2(4, 0));
+                nextBlocks.Add(new Vector2(5, 1));
+                nextBlocks.Add(new Vector2(6, 1));
             }
             else if (shapeColor == 4)
             {
                 // S
-                fallingBlocks.Add(new Vector2(5, 1));
-                fallingBlocks.Add(new Vector2(4, 0));
-                fallingBlocks.Add(new Vector2(4, 1));
-                fallingBlocks.Add(new Vector2(5, 2));
+                nextBlocks.Add(new Vector2(5, 1));
+                nextBlocks.Add(new Vector2(4, 0));
+                nextBlocks.Add(new Vector2(4, 1));
+                nextBlocks.Add(new Vector2(5, 2));
             }
             else if (shapeColor == 5)
             {
                 // J
-                fallingBlocks.Add(new Vector2(4, 1));
-                fallingBlocks.Add(new Vector2(4, 0));
-                fallingBlocks.Add(new Vector2(5, 0));
-                fallingBlocks.Add(new Vector2(4, 2));
+                nextBlocks.Add(new Vector2(4, 1));
+                nextBlocks.Add(new Vector2(4, 0));
+                nextBlocks.Add(new Vector2(5, 0));
+                nextBlocks.Add(new Vector2(4, 2));
             }
             else if (shapeColor == 6)
             {
                 // T
-                fallingBlocks.Add(new Vector2(5, 0));
-                fallingBlocks.Add(new Vector2(4, 0));
-                fallingBlocks.Add(new Vector2(6, 0));
-                fallingBlocks.Add(new Vector2(5, 1));
+                nextBlocks.Add(new Vector2(5, 0));
+                nextBlocks.Add(new Vector2(4, 0));
+                nextBlocks.Add(new Vector2(6, 0));
+                nextBlocks.Add(new Vector2(5, 1));
             }
+
         }
 
         //suppose to clear the rows, without this the game gets cluttered with a bunch of boxes for somereason
@@ -466,13 +479,17 @@ namespace Srivers_Tetris5_051713
                 spriteBatch.Draw(tetrisBlock, new Rectangle(x * 32, y * 32, 32, 32), colors[shapeColor]);
 
             }
+            /*
             for (int count = 0; count < fallingBlocks.Count; count++)
             {
                 int x = (int)fallingBlocks[count].X;
                 int y = (int)fallingBlocks[count].Y;
                 spriteBatch.Draw(tetrisBlock, new Rectangle(415, 125, 32, 32), colors[shapeColor]);
 
-            }
+            }*/
+
+            foreach (Vector2 vec in nextBlocks)
+                spriteBatch.Draw(next, new Rectangle((int)vec.X * 32 + 300, (int)vec.Y * 32 + 100, 32, 32), colors[nextShapeColor]);
 
             spriteBatch.End();
             base.Draw(gameTime);
