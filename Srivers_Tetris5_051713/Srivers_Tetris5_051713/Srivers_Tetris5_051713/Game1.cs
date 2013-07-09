@@ -108,7 +108,7 @@ namespace Srivers_Tetris5_051713
             fallingBlocks = nextBlocks;
             nextBlocks = new List<Vector2>();
 
-            if (shapeColor == 0)
+            if (nextShapeColor == 0)
             {
                 // square
                 nextBlocks.Add(new Vector2(4, 0));
@@ -116,7 +116,7 @@ namespace Srivers_Tetris5_051713
                 nextBlocks.Add(new Vector2(4, 1));
                 nextBlocks.Add(new Vector2(5, 1));
             }
-            else if (shapeColor == 1)
+            else if (nextShapeColor == 1)
             {
                 // I
                 nextBlocks.Add(new Vector2(5, 0));
@@ -124,7 +124,7 @@ namespace Srivers_Tetris5_051713
                 nextBlocks.Add(new Vector2(6, 0));
                 nextBlocks.Add(new Vector2(7, 0));
             }
-            else if (shapeColor == 2)
+            else if (nextShapeColor == 2)
             {
                 // L
                 nextBlocks.Add(new Vector2(5, 1));
@@ -132,7 +132,7 @@ namespace Srivers_Tetris5_051713
                 nextBlocks.Add(new Vector2(5, 0));
                 nextBlocks.Add(new Vector2(5, 2));
             }
-            else if (shapeColor == 3)
+            else if (nextShapeColor == 3)
             {
                 // Z
                 nextBlocks.Add(new Vector2(5, 0));
@@ -140,7 +140,7 @@ namespace Srivers_Tetris5_051713
                 nextBlocks.Add(new Vector2(5, 1));
                 nextBlocks.Add(new Vector2(6, 1));
             }
-            else if (shapeColor == 4)
+            else if (nextShapeColor == 4)
             {
                 // S
                 nextBlocks.Add(new Vector2(5, 1));
@@ -148,7 +148,7 @@ namespace Srivers_Tetris5_051713
                 nextBlocks.Add(new Vector2(4, 1));
                 nextBlocks.Add(new Vector2(5, 2));
             }
-            else if (shapeColor == 5)
+            else if (nextShapeColor == 5)
             {
                 // J
                 nextBlocks.Add(new Vector2(4, 1));
@@ -156,7 +156,7 @@ namespace Srivers_Tetris5_051713
                 nextBlocks.Add(new Vector2(5, 0));
                 nextBlocks.Add(new Vector2(4, 2));
             }
-            else if (shapeColor == 6)
+            else if (nextShapeColor == 6)
             {
                 // T
                 nextBlocks.Add(new Vector2(5, 0));
